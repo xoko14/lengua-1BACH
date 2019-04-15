@@ -1,8 +1,8 @@
 version: 1.0.0
 files:
-  - url: lengua-1bach-setup-1.0.0.exe
-    sha512: Cd2xreKzTik0Mj5zyQBbyzPM31GG6EESd6UtZwOXk6GQyrCTCfZ2ooYSu+J4xl1MWM1KAQucWDDiDg1DXBNxCQ==
-    size: 43964948
-path: lengua-1bach-setup-1.0.0.exe
-sha512: Cd2xreKzTik0Mj5zyQBbyzPM31GG6EESd6UtZwOXk6GQyrCTCfZ2ooYSu+J4xl1MWM1KAQucWDDiDg1DXBNxCQ==
-releaseDate: '2019-04-15T15:19:44.813Z'
+  - url: Lengua-Castellana-y-Literatura-Setup-1.0.0.exe
+    sha512: dFfmVaGBEg9ONO86aqJpJyQLq8s9utGe0QnOuRqTblRCCmXEoZtA32BmqSdU6CYBjXa+nWrkHdmEntyAwozmOQ==
+    size: 43966220
+path: Lengua-Castellana-y-Literatura-Setup-1.0.0.exe
+sha512: dFfmVaGBEg9ONO86aqJpJyQLq8s9utGe0QnOuRqTblRCCmXEoZtA32BmqSdU6CYBjXa+nWrkHdmEntyAwozmOQ==
+releaseDate: '2019-04-15T15:37:23.198Z'
