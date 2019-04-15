@@ -1,0 +1,19 @@
+{
+  "name": "lengua-1bach",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": ".electron"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xoko14/lengua-1BACH.git"
+  },
+  "author": "Xoko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xoko14/lengua-1BACH/issues"
+  },
+  "homepage": "https://github.com/xoko14/lengua-1BACH#readme"
+}
