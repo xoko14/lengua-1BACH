@@ -4,17 +4,16 @@
   "description": "Teoría y ejercicios de 1º de Bachiller",
   "main": "main.js",
   "scripts": {
-    "postinstall": "install-app-deps",
+    "postinstall": "electron-builder install-app-deps",
     "start": "electron .",
-    "pack": "build --dir",
-    "dist": "build"
-
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
   },
-
   "build": {
     "appId": "lengua",
     "dmg": {
-      "contents": [{
+      "contents": [
+        {
           "x": 110,
           "y": 150
         },
@@ -37,12 +36,11 @@
       "icon": "build/icon.ico"
     }
   },
-
   "repository": {
     "type": "git",
     "url": "git+https://github.com/xoko14/lengua-1BACH.git"
   },
-  "author": "Xoko",
+  "author": "Xoko <xoquinperezb@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/xoko14/lengua-1BACH/issues"
