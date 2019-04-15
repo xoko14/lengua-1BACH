@@ -1,11 +1,43 @@
 {
-  "name": "lengua-1bach",
+  "name": "Lengua castellana y literatura",
   "version": "1.0.0",
-  "description": "",
+  "description": "Lengua castellana y literatura",
   "main": "main.js",
   "scripts": {
-    "test": ".electron"
+    "postinstall": "install-app-deps",
+    "start": "electron .",
+    "pack": "build --dir",
+    "dist": "build"
+
   },
+
+  "build": {
+    "appId": "lengua",
+    "dmg": {
+      "contents": [{
+          "x": 110,
+          "y": 150
+        },
+        {
+          "x": 240,
+          "y": 150,
+          "type": "link",
+          "path": "/Applications"
+        }
+      ]
+    },
+    "linux": {
+      "target": [
+        "AppImage",
+        "deb"
+      ]
+    },
+    "win": {
+      "target": "NSIS",
+      "icon": "build/icon.ico"
+    }
+  },
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/xoko14/lengua-1BACH.git"
@@ -15,5 +47,15 @@
   "bugs": {
     "url": "https://github.com/xoko14/lengua-1BACH/issues"
   },
-  "homepage": "https://github.com/xoko14/lengua-1BACH#readme"
+  "homepage": "https://github.com/xoko14/lengua-1BACH#readme",
+  "devDependencies": {
+    "electron": "^4.1.4",
+    "electron-builder": "^20.39.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.0",
+    "popper.js": "^1.15.0",
+    "tether": "^1.4.5"
+  }
 }
