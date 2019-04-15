@@ -1,7 +1,7 @@
 {
-  "name": "Lengua castellana y literatura",
+  "name": "Lengua Castellana y Literatura",
   "version": "1.0.0",
-  "description": "Lengua castellana y literatura",
+  "description": "Teoría y ejercicios de 1º de Bachiller",
   "main": "main.js",
   "scripts": {
     "postinstall": "install-app-deps",
